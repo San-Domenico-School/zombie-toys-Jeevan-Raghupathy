@@ -39,7 +39,7 @@ Transform:
   m_Children:
   - {fileID: 5123986678521201751}
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!136 &2109275146602778591
 CapsuleCollider:
@@ -83,7 +83,7 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 2
-  m_BaseOffset: 0
+  m_BaseOffset: 1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!54 &1966519203247229188
@@ -168,7 +168,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FrostDebuff: {fileID: 0}
-  navMeshAgent: {fileID: 0}
+  navMeshAgent: {fileID: 8208667230210612792}
   animator: {fileID: 8984606331255548403}
   runAwayDistance: 10
 --- !u!114 &6075796092012577046
